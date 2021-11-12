@@ -2,15 +2,15 @@ import React from 'react';
 
 function Navigation({ currentPage, handlePageChange }) {
     return (
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <div class="container">
+        <nav className="navbar navbar-expand-lg navbar-light">
+            <div className="container">
                 <h3>Leslie Vaillancourt</h3>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span className="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
+                <div className="collapse navbar-collapse" id="navbarNav">
+                    <ul className="navbar-nav">
+                        <li className="nav-item">
                             <a
                                 href="#aboutme"
                                 aria-current="page"
@@ -20,7 +20,7 @@ function Navigation({ currentPage, handlePageChange }) {
                                 About Me
                             </a>
                         </li>
-                        <li class="nav-item">
+                        <li className="nav-item">
                             <a
                                 href="#portfolio"
                                 aria-current="page"
@@ -30,7 +30,7 @@ function Navigation({ currentPage, handlePageChange }) {
                                 Portfolio
                             </a>
                         </li>
-                        <li class="nav-item">
+                        <li className="nav-item">
                             <a
                                 href="#contact"
                                 aria-current="page"
@@ -40,7 +40,7 @@ function Navigation({ currentPage, handlePageChange }) {
                                 Contact
                             </a>
                         </li>
-                        <li class="nav-item">
+                        <li className="nav-item">
                             <a
                                 href="#resume"
                                 aria-current="page"

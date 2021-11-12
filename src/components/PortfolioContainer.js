@@ -24,10 +24,10 @@ export default function PortfolioContainer() {
     return <Resume />;
   };
 
-  const handlePageChange = (page) => setCurrentPage(page);
+  const handlePageChange = async (page) => await setCurrentPage(page);
 
   return (
-    <div class="page">
+    <div className="page-css">
       {/* We are passing the currentPage from state and the function to update it */}
       <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
       {/* Here we are calling the renderPage method which will return a component  */}

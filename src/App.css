@@ -7,7 +7,7 @@
   min-height: 75vh;
 }
 
-.page {
+.page-css {
   height: 100vh;
   display:flex-block;
   flex-direction: column;
