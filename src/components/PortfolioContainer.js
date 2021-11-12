@@ -24,7 +24,7 @@ export default function PortfolioContainer() {
     return <Resume />;
   };
 
-  const handlePageChange = async (page) => await setCurrentPage(page);
+  const handlePageChange = (page) => setCurrentPage(page);
 
   return (
     <div className="page-css">
