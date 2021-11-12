@@ -51,10 +51,9 @@ function Contact() {
 
     return (
         <div className="container">
-            <h1 style={{textAlign:'center', marginTop:50}}>Contact Me</h1>
+            <h1 style={{ textAlign: 'center', marginTop: 50 }}>Contact Me</h1>
             <p>Want to get in touch? Fill out this form to send me a message.</p>
             <form className="form">
-            {/* <div className="form-group"><input/></div> */}
                 <div className="form-group">
                     <label>Name</label>
                     <input
@@ -89,7 +88,7 @@ function Contact() {
                         rows="3"
                     />
                 </div>
-                <button type="button" className="btn btn-primary"onClick={handleFormSubmit} >Submit</button>
+                <button type="button" className="btn btn-primary" onClick={handleFormSubmit} >Submit</button>
             </form>
             {errorMessage && (
                 <div>
