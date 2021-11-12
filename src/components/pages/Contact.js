@@ -20,7 +20,7 @@ function Contact() {
         // Based on the input type, we set the state of either email, username, and password
         if (inputType === 'email') {
             setEmail(inputValue);
-        } else if (inputType === 'text') {
+        } else if (inputType === 'fullName') {
             setFullName(inputValue);
         } else {
             setMessage(inputValue);
@@ -31,21 +31,18 @@ function Contact() {
         // Preventing the default behavior of the form submit (which is to refresh the page)
         e.preventDefault();
 
-        // First we check to see if the email is not valid or if the userName is empty. If so we set an error message to be displayed on the page.
+        // Check for required inputs.
         if (!email || !fullName || !message) {
             setErrorMessage('Please enter your name, email and a message.');
-            // We want to exit out of this code block if something is wrong so that the user can correct it
             return;
-            // Then we check to see if the password is not valid. If so, we set an error message regarding the password.
+            // Then we check to see if the email is valid.
         } else if (!validateEmail(email)) {
             setErrorMessage('Please enter a valid email.');
-            // We want to exit out of this code block if something is wrong so that the user can correct it
             return;
-            // Then we check to see if the password is not valid. If so, we set an error message regarding the password.
         }
         alert(`Thank you for getting in touch.  I'll get back to you shortly.`);
 
-        // If everything goes according to plan, we want to clear out the input after a successful registration.
+        // Clear out the input after a successful registration.
         setFullName('');
         setEmail('');
         setMessage('');
@@ -57,7 +54,7 @@ function Contact() {
             <h1 style={{textAlign:'center', marginTop:50}}>Contact Me</h1>
             <p>Want to get in touch? Fill out this form to send me a message.</p>
             <form className="form">
-            <div className="form-group"><input/></div>
+            {/* <div className="form-group"><input/></div> */}
                 <div className="form-group">
                     <label>Name</label>
                     <input

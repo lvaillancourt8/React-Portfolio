@@ -47,3 +47,7 @@ footer {
   margin-bottom:20px;
   
 }
+
+.error-text {
+  color: red;
+}
