@@ -1,6 +1,49 @@
-
-
 #navbarNav {
   /* display: flex; */
   justify-content: flex-end;
+}
+
+.container {
+  min-height: 75vh;
+}
+
+.page {
+  height: 100vh;
+  display:flex-block;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+nav {
+  height: 10vh;
+  background-color: azure;
+  padding: 40px;
+}
+
+footer {
+  height: 10vh;
+  position:relative;
+  bottom: 0;
+  background-color: azure;
+  padding: 40px;
+}
+
+.card {
+  margin: 40px 10px;
+  width: 300px;
+}
+
+.card-deck {
+  display: flex;
+  justify-content: center;
+}
+
+.card-img-top {
+  margin-top: 10px;
+}
+
+.form-group {
+  margin-top: 20px;
+  margin-bottom:20px;
+  
 }
