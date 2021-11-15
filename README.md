@@ -2,6 +2,7 @@
 Current portfolio of individual and group projects built using React and deployed to github pages.
 
 ## Link to Live Application
+https://lvaillancourt8.github.io/React-Portfolio/
 
 
 ## Screenshot
