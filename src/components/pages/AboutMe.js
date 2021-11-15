@@ -14,7 +14,7 @@ function AboutMe() {
                     </p>
                 </div>
                 <div className="col-sm-10 col-md-2">
-                    <img className="img-fluid" src="./assets/images/Headshot.jpg" />
+                    <img className="img-fluid" src="./assets/images/Headshot.jpg" alt="Leslie Vaillancourt Headshot" />
                 </div>
             </div>
         </div>
