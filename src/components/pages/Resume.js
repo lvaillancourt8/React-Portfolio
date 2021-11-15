@@ -25,7 +25,7 @@ function Resume() {
                     </ul>
                 </div>
                 <div className="col-sm-10 col-md-2">
-                    <a class="btn btn-primary" href="/assets/images/LV_resume.pdf" download="LV_resume.pdf" >Download My Resume</a>
+                    <a class="btn btn-primary" href="./assets/images/LV_resume.pdf" download="LV_resume.pdf" >Download My Resume</a>
                 </div>
             </div>
         </div>
