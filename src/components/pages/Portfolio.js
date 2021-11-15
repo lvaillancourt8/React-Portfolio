@@ -50,7 +50,7 @@ function Portfolio() {
                     </div>
                 </div>
                 <div className="card col-sm-12 col-md-3">
-                    <img className="card-img-top" src="./assets/images/noteTaker.jpg" alt="note taker homepage screenshot" />
+                    <img className="card-img-top" src="./assets/images/notetaker.jpg" alt="note taker homepage screenshot" />
                     <div className="card-body">
                         <h5 className="card-title">Note Taker</h5>
                         <p className="card-text">A simple web app that allows the user to write and save notes to keep track of tasks they need to complete.</p>
